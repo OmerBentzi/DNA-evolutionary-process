@@ -1,0 +1,111 @@
+[[package]]
+name = "beautifulsoup4"
+version = "4.4.0"
+description = "Screen-scraping library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+html5lib = ["html5lib"]
+lxml = ["lxml"]
+
+[[package]]
+name = "click"
+version = "3.3"
+description = "A simple wrapper around optparse for powerful command line utilities."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "numpy"
+version = "1.22.2"
+description = "NumPy is the fundamental package for array computing with Python."
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "pyenchant"
+version = "1.6.6"
+description = "Python bindings for the Enchant spellchecking system"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "requests"
+version = "2.7.0"
+description = "Python HTTP for Humans."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+security = ["pyopenssl", "ndg-httpsclient", "pyasn1"]
+
+[[package]]
+name = "sitechantment"
+version = "0.1.0"
+description = "Check a site for spelling errors"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+beautifulsoup4 = "4.4.0"
+click = "3.3"
+pyenchant = "1.6.6"
+requests = "2.7.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.8.0,<3.9"
+content-hash = "4d723b941c37c60dfc6033711f3705647294279076995f767e4d74c20ba80f24"
+
+[metadata.files]
+beautifulsoup4 = [
+    {file = "beautifulsoup4-4.4.0-py2-none-any.whl", hash = "sha256:b702721f8722c94fbd2fbdfb42183c4b5b3d8871186b92a8898e2dfe4869aadb"},
+    {file = "beautifulsoup4-4.4.0-py3-none-any.whl", hash = "sha256:a43204aaee0ef590a6073470f094564ddef6aca5f68c143c99262f8b4923af8c"},
+    {file = "beautifulsoup4-4.4.0.tar.gz", hash = "sha256:fad91da88f69438b9ba939ab1b2cabaa31b1d914f1cccb4bb157a993ed2917f6"},
+]
+click = [
+    {file = "click-3.3-py2.py3-none-any.whl", hash = "sha256:c9972f4d2b80575bb9112500cfec750eaf4f04e07abda4b2c44e453cde65ee77"},
+    {file = "click-3.3.tar.gz", hash = "sha256:f79c8c04d7eb50071bcad67fd23f3c10fab6c72d56857adf848367806845d6e5"},
+]
+numpy = [
+    {file = "numpy-1.22.2-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:515a8b6edbb904594685da6e176ac9fbea8f73a5ebae947281de6613e27f1956"},
+    {file = "numpy-1.22.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:76a4f9bce0278becc2da7da3b8ef854bed41a991f4226911a24a9711baad672c"},
+    {file = "numpy-1.22.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:168259b1b184aa83a514f307352c25c56af111c269ffc109d9704e81f72e764b"},
+    {file = "numpy-1.22.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3556c5550de40027d3121ebbb170f61bbe19eb639c7ad0c7b482cd9b560cd23b"},
+    {file = "numpy-1.22.2-cp310-cp310-win_amd64.whl", hash = "sha256:aafa46b5a39a27aca566198d3312fb3bde95ce9677085efd02c86f7ef6be4ec7"},
+    {file = "numpy-1.22.2-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:55535c7c2f61e2b2fc817c5cbe1af7cb907c7f011e46ae0a52caa4be1f19afe2"},
+    {file = "numpy-1.22.2-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:60cb8e5933193a3cc2912ee29ca331e9c15b2da034f76159b7abc520b3d1233a"},
+    {file = "numpy-1.22.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0b536b6840e84c1c6a410f3a5aa727821e6108f3454d81a5cd5900999ef04f89"},
+    {file = "numpy-1.22.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2638389562bda1635b564490d76713695ff497242a83d9b684d27bb4a6cc9d7a"},
+    {file = "numpy-1.22.2-cp38-cp38-win32.whl", hash = "sha256:6767ad399e9327bfdbaa40871be4254d1995f4a3ca3806127f10cec778bd9896"},
+    {file = "numpy-1.22.2-cp38-cp38-win_amd64.whl", hash = "sha256:03ae5850619abb34a879d5f2d4bb4dcd025d6d8fb72f5e461dae84edccfe129f"},
+    {file = "numpy-1.22.2-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:d76a26c5118c4d96e264acc9e3242d72e1a2b92e739807b3b69d8d47684b6677"},
+    {file = "numpy-1.22.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:15efb7b93806d438e3bc590ca8ef2f953b0ce4f86f337ef4559d31ec6cf9d7dd"},
+    {file = "numpy-1.22.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:badca914580eb46385e7f7e4e426fea6de0a37b9e06bec252e481ae7ec287082"},
+    {file = "numpy-1.22.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:94dd11d9f13ea1be17bac39c1942f527cbf7065f94953cf62dfe805653da2f8f"},
+    {file = "numpy-1.22.2-cp39-cp39-win32.whl", hash = "sha256:8cf33634b60c9cef346663a222d9841d3bbbc0a2f00221d6bcfd0d993d5543f6"},
+    {file = "numpy-1.22.2-cp39-cp39-win_amd64.whl", hash = "sha256:59153979d60f5bfe9e4c00e401e24dfe0469ef8da6d68247439d3278f30a180f"},
+    {file = "numpy-1.22.2-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4a176959b6e7e00b5a0d6f549a479f869829bfd8150282c590deee6d099bbb6e"},
+    {file = "numpy-1.22.2.zip", hash = "sha256:076aee5a3763d41da6bef9565fdf3cb987606f567cd8b104aded2b38b7b47abf"},
+]
+pyenchant = [
+    {file = "pyenchant-1.6.6-py2.py3-none-any.whl", hash = "sha256:2e573566c62eea455b2447b90accc61efed1d2a825dd3dc9285ab914baae92b3"},
+    {file = "pyenchant-1.6.6-py2.py3.cp27.cp26.cp32.cp33.cp34.pp27-none-macosx_10_6_intel.macosx_10_9_intel.whl", hash = "sha256:66f45e71d52e159381a1177b63e25eb419a0acb49b18a7197c0be8110567b8d1"},
+    {file = "pyenchant-1.6.6-py2.py3.cp27.cp26.cp32.cp33.cp34.pp27-none-win32.whl", hash = "sha256:dd6ec7351ee93b65bd3c0bf9b1dbc143d2837cffabf8371bda0d589f471679bc"},
+    {file = "pyenchant-1.6.6.tar.gz", hash = "sha256:25c9d2667d512f8fc4410465fdd2e868377ca07eb3d56e2b6e534a86281d64d3"},
+    {file = "pyenchant-1.6.6.win32.exe", hash = "sha256:fe5fc3e2577d38e2adc0d2c70a92c1e11d4e450f40465a7cf649a5a250b254b9"},
+]
+requests = [
+    {file = "requests-2.7.0-py2.py3-none-any.whl", hash = "sha256:20f976cdce02a42b69ce80e9e03897a51814b36d448b37288546086ebc473146"},
+    {file = "requests-2.7.0.tar.gz", hash = "sha256:398a3db6d61899d25fd4a06c6ca12051b0ce171d705decd7ed5511517b4bb93d"},
+]
+sitechantment = [
+    {file = "sitechantment-0.1.0.tar.gz", hash = "sha256:92b5ef1e5a11dd22c4d161dba724b71ea66bc23bc6a43e6bb42849d1f58bcf15"},
+]
